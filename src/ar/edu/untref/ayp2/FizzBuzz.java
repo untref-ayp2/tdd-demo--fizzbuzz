@@ -12,7 +12,7 @@ public class FizzBuzz {
 	 * Devuelve la representación "FizzBuzz" de un número.
 	 *
 	 */
-	public String fizzBuzz(int i) {
+	public static String fizzBuzz(int i) {
 		return "1";
 	}
 

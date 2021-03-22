@@ -8,7 +8,6 @@ public class FizzBuzzTest {
 
 	@Test
 	void deberiaPoderRepresentarElNumeroUno() {
-		FizzBuzz fb = new FizzBuzz();
-		assertThat(fb.fizzBuzz(1)).isEqualTo("1");
+		assertThat(FizzBuzz.fizzBuzz(1)).isEqualTo("1");
 	}
 }
