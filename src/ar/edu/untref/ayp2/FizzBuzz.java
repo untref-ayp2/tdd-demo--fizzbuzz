@@ -1,10 +1,19 @@
 package ar.edu.untref.ayp2;
 
 /**
- * Responsabilidades: Sólo necesitamos esta clase para poder escribir nuestro
- * método dentro de ella :-)
+ * Responsabilidades: Devolver la representación "FizzBuzz" de los primeros 100
+ * números enteros.
  *
  */
+
 public class FizzBuzz {
+
+	/**
+	 * Devuelve la representación "FizzBuzz" de un número.
+	 *
+	 */
+	public String fizzBuzz(int i) {
+		return "1";
+	}
 
 }
