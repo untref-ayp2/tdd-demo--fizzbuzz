@@ -13,6 +13,8 @@ public class FizzBuzz {
 	 *
 	 */
 	public static String fizzBuzz(int i) {
+		// TODO: acá se debería convertir (de alguna manera) la representación de la
+		// entrada entera en String.
 		return "1";
 	}
 
