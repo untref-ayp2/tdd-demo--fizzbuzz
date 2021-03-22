@@ -1,6 +1,6 @@
 # tdd-demo
 
-Una demostración del flujo de trabajo con TDD (Test-Driven Development).
+Una demostración del flujo de trabajo con TDD (Test-Driven Development), combinado con el uso de "recetas de software".
 
 Material complementario a la Clase de TDD "[Algoritmos y Programación II](https://sites.google.com/untref.edu.ar/aypii/)", de la [Ingeniería en Computación](http://www.untref.edu.ar/carrera/ingenieria-en-computacion) de la [UNTREF](https://untref.edu.ar).
 
@@ -12,9 +12,14 @@ https://github.com/untref-ayp2/tdd-demo
 
 ## Uso
 
+<!--
 [Video de la clase en YouTube](TBD). (Licencia: [CC-BY](https://creativecommons.org/licenses/by/4.0/)).
+-->
 
+La resolución se encuentra en la rama 'resolucion-paso-a-paso'.
 Se recomienda seguir el desarrollo con alguna herramienta como [Git-Time-Machine](https://github.com/littlebee/git-time-machine).
+
+[Guías de referencia rápida de recetas de software en este repo](doc/)
 
 Nota: El problema utilizado como ejemplo es expresamente trivial, puesto que el objetivo de la clase es focalizarse en el proceso y el uso de las herramientas del lenguaje y el entorno.
 
@@ -36,6 +41,23 @@ Una ronda típica de “Fizz Buzz” comenzaría de la siguiente manera:
 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, Fizz Buzz, 31, 32, Fizz, 34, Buzz, Fizz, ...
 
 *Traducido de https://en.wikipedia.org/wiki/Fizz_buzz*
+
+
+## Referencias
+
+“How to Design Programs - An Introduction to Programming and Computing (2nd Ed.)”
+(Cómo Diseñar Programas – Una Introducción a Programación y Computación, 2da. Ed.). Matthias Felleisen,
+Robert Bruce Findler, Matthew Flatt & Shriram Krishnamurthi. Publicado por MIT Press. Edición en papel: ISBN:
+9780262534802 (2018). Edición digital disponible gratuitamente en https://htdp.org
+
+“How to Design Classes - Data: Structure and Organization (June 15 2012 draft)” (Cómo
+Diseñar Clases – Datos: Estructura y Organización, Borrador del 15 de Junio de 2012). Matthias Felleisen,
+Matthew Flatt, Robert Bruce Findler, Kathryn E. Gray, Shriram Krishnamurthi & Viera K. Proulx.
+Versión digital disponible gratuitamente en https://felleisen.org/matthias/htdc.html
+
+
+Ciclo de desarrollo conducido por pruebas (TDD)
+https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas#Ciclo_de_desarrollo_conducido_por_pruebas_TDD
 
 
 ## Licencia
