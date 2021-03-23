@@ -32,4 +32,9 @@ public class FizzBuzzTest {
 		assertThat(fizzBuzz(10)).isEqualTo("Buzz");
 	}
 
+	@Test
+	void deberiaPoderRepresentarElNumeroQuince() {
+		assertThat(fizzBuzz(15)).isEqualTo("FizzBuzz");
+	}
+
 }
