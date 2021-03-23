@@ -22,4 +22,9 @@ public class FizzBuzzTest {
 		assertThat(fizzBuzz(4)).isEqualTo("4");
 	}
 
+	@Test
+	void deberiaPoderRepresentarElNumeroSeis() {
+		assertThat(fizzBuzz(6)).isEqualTo("Fizz");
+	}
+
 }
