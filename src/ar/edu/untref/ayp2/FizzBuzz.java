@@ -12,12 +12,12 @@ public class FizzBuzz {
 	 * Devuelve la representación "FizzBuzz" de un número.
 	 *
 	 */
-	public static String fizzBuzz(int i) {
+	public static String fizzBuzz(int numero) {
 
-		if (i % 3 == 0) {
+		if (numero % 3 == 0) {
 			return "Fizz";
 		} else {
-			return Integer.toString(i);
+			return Integer.toString(numero);
 		}
 	}
 
