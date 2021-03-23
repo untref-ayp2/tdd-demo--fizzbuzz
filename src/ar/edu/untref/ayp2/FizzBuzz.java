@@ -13,24 +13,12 @@ public class FizzBuzz {
 	 *
 	 */
 	public static String fizzBuzz(int i) {
-		// TODO: acá se debería convertir (de alguna manera) la representación de la
-		// entrada entera en String.
-
-		if (i == 1) {
-			return "1";
-		}
-
-		if (i == 4) {
-			return "4";
-		}
 
 		if (i == 3) {
 			return "Fizz";
+		} else {
+			return Integer.toString(i);
 		}
-
-		else
-			return "???";
-
 	}
 
 }
